@@ -7,10 +7,15 @@ A production-ready URL shortener built using Node.js, MongoDB, and Redis, design
 #  Features
 
 1  Shorten long URLs into compact, shareable links.
+
 2  Fast redirection using Redis caching.
+
 3  Persistent storage with MongoDB.
+
 4  Click tracking for analytics.
+
 5  Rate limiting to prevent abuse.
+
 6  Environment-based configuration using `.env`.
 
 
