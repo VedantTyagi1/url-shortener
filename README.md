@@ -23,8 +23,11 @@ A production-ready URL shortener built using Node.js, MongoDB, and Redis, design
 #  System Design Highlights
 
 1 1.1 Base62 / NanoID-based ID generation for unique short URLs
+
 2 2.1 Read-heavy optimization using Redis cache layer
+
 3 3.1 Database indexing for efficient lookup
+
 4 4.1 Scalable architecture  suitable for high traffic systems
 
 
@@ -32,8 +35,11 @@ A production-ready URL shortener built using Node.js, MongoDB, and Redis, design
 #  Tech Stack
 
 1 Backend: Node.js, Express
+
 2 Database: MongoDB
+
 3 Cache: Redis
+
 4 Other Tools: dotenv, nanoid
 
 
@@ -94,7 +100,9 @@ Achieves low-latency redirects for read-heavy workloads
 Rate limiting protects against abuse and ensures system stability
 # Security & Best Practices
 1 Sensitive data managed using .env
+
 2 .gitignore used to exclude secrets and dependencies
+
 3 Input validation can be extended for production use
 
 #  Future Enhancements
